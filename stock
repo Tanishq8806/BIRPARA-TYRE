@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tyre Stock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Available Tyres</h2>
+  <div class="tyre-list">
+    <div class="tyre-card">
+      <h3>Michelin Pilot Sport</h3>
+      <p>Size: 205/55R16</p>
+      <p>Price: ₹6,500</p>
+      <p>In Stock: 15</p>
+    </div>
+    <div class="tyre-card">
+      <h3>MRF ZLX</h3>
+      <p>Size: 185/65R15</p>
+      <p>Price: ₹4,200</p>
+      <p>In Stock: 30</p>
+    </div>
+  </div>
+</body>
+</html>
