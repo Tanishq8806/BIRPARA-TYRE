@@ -1,0 +1,14 @@
+function generateBill() {
+  const tyre = document.getElementById('tyre').value;
+  const qty = parseInt(document.getElementById('qty').value);
+
+  let price = tyre.includes('Michelin') ? 6500 : 4200;
+  let total = price * qty;
+
+  document.getElementById('bill-output').innerHTML = `
+    <h3>Bill Summary</h3>
+    <p>Tyre: ${tyre}</p>
+    <p>Quantity: ${qty}</p>
+    <p>Total Amount: ₹${total}</p>
+  `;
+}
